@@ -1,5 +1,5 @@
 ### Installed product versions
-- Tool name: [example 1.1.21]
+- Export/Import Buid Definition extension: [example 1.1.21]
 
 ### Description
 Replace this text with a short description
