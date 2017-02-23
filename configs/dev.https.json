@@ -1,0 +1,7 @@
+{
+    "public": false,
+    "baseUri": "https://localhost:3000",
+    "name": "Dev: ExportImportBuildDefinition",
+    "publisher": "onlyutkarsh",
+    "version": "0.0.1"
+}

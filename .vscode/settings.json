@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "scripts/*.js.*": true
+    },
+    "vsicons.presets.angular": false
+}

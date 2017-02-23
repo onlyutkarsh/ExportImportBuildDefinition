@@ -1,0 +1,134 @@
+{
+  "manifestVersion": 1,
+  "id": "ExportImportBuildDefinition",
+  "version": "0.0.1",
+  "name": "Export/Import Build Definition",
+  "scopes": [
+    "vso.build_execute",
+    "vso.build",
+    "vso.serviceendpoint",
+    "vso.serviceendpoint_manage",
+    "vso.agentpools"
+  ],
+  "description": "Export and Import your build definitions. Useful for recreating all the build steps, variables, schedules, etc in a different team project.",
+  "publisher": "onlyutkarsh",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+ "icons": {
+    "default": "images/export-import-logo.png"
+  },
+  "categories": [
+    "Build and release"
+  ],
+  "tags": [
+    "Export",
+    "Import",
+    "Build",
+    "Build Definition"
+  ],
+  "content": {
+    "details": {
+      "path": "intro.md"
+    },
+    "license": {
+      "path": "license.txt"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/onlyutkarsh/ExportImportBuildDefinition"
+  },
+  "links": {
+    "issues": {
+      "uri": "http://bit.ly/exportaspdfissues"
+    }
+  },
+  "branding": {
+    "color": "rgb(8,39,68)",
+    "theme": "dark"
+  },
+  "files": [
+    {
+      "path": "css",
+      "addressable": true
+    },
+    {
+      "path": "fonts/utkarsh-export-import.eot",
+      "addressable": true,
+      "contentType": "application/vnd.ms-fontobject"
+    },
+    {
+      "path": "fonts/utkarsh-export-import.svg",
+      "addressable": true,
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "fonts/utkarsh-export-import.ttf",
+      "addressable": true,
+      "contentType": "application/font-sfnt"
+    },
+    {
+      "path": "fonts/utkarsh-export-import.woff",
+      "addressable": true,
+      "contentType": "application/font-woff"
+    },
+    {
+      "path": "images",
+      "addressable": true
+    },
+    {
+      "path": "libs",
+      "addressable": true
+    },
+    {
+      "path": "src",
+      "addressable": true
+    },
+    {
+      "path": "screenshots",
+      "addressable": true
+    }
+  ],
+  "contributions": [
+    {
+      "id": "export-menu",
+      "type": "ms.vss-web.action",
+      "targets": [
+        "ms.vss-build-web.build-definition-menu"
+      ],
+      "properties": {
+        "text": "Export",
+        "group": "editing",
+        "icon": "images/export.png",
+        "uri": "src/main.html",
+        "registeredObjectId": "menuExport"
+      }
+    },
+    {
+      "id": "import-menu",
+      "type": "ms.vss-web.action",
+      "targets": [
+        "ms.vss-build-web.build-definition-menu"
+      ],
+      "properties": {
+        "text": "Import",
+        "group": "editing",
+        "icon": "images/import.png",
+        "uri": "src/main.html",
+        "registeredObjectId": "menuImport"
+      }
+    },
+    {
+      "id": "dialogPage",
+      "type": "ms.vss-web.control",
+      "description": "Dialog page",
+      "targets": [],
+      "properties": {
+        "uri": "src/main.html"
+      }
+    }
+  ]
+}

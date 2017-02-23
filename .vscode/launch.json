@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug packageDev.js",
+            "program": "${workspaceRoot}/configs/packageDev.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug publishDev.js",
+            "program": "${workspaceRoot}/configs/publishDev.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug packageDevVSTS.js",
+            "program": "${workspaceRoot}/configs/packageDevVSTS.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "name": "localhost (http), with sourcemaps",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}",
+            "diagnosticLogging": false,
+            "userDataDir": "${workspaceRoot}/out/chrome",
+            "skipFiles": [
+                "dist/**/*.js"
+            ]
+        },
+        {
+            "name": "localhost (https), with sourcemaps",
+            "type": "chrome",
+            "request": "launch",
+            "url": "https://localhost:3000",
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}",
+            "diagnosticLogging": false,
+            "userDataDir": "${workspaceRoot}/out/chrome",
+            "skipFiles": [
+                "dist/**/*.js"
+            ]
+        },
+        {
+            "name": "Attach to Chrome, with sourcemaps",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}
