@@ -20,7 +20,10 @@
             "request": "launch",
             "name": "Debug packageDevVSTS.js",
             "program": "${workspaceRoot}/configs/packageDevVSTS.js",
-            "cwd": "${workspaceRoot}"
+            "cwd": "${workspaceRoot}",
+            "args": [
+                "--version=0.0.4"
+            ]
         },
         {
             "name": "localhost (http), with sourcemaps",
