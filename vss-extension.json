@@ -3,6 +3,7 @@
   "id": "ExportImportBuildDefinition",
   "version": "0.0.1",
   "name": "Export/Import Build Definition",
+  "public": true,
   "scopes": [
     "vso.build_execute",
     "vso.build",
