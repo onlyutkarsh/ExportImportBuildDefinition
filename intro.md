@@ -3,7 +3,7 @@
 ## Release notes ##
 
 > **Feb 2017**
-> - *To perform additional validations, current version of extension now depends on few additional scopes which are available only in TFS 2017 and above. **If you are not on TFS 2017 but using TFS 2015 Update 2 and above, please use [v0.0.2](https://github.com/onlyutkarsh/ExportImportBuildDefinition/releases/tag/v0.0.2) and install extension manually.***
+> - <span style="color:#C93A2A">For additional validations, current version of extension now depends on few additional scopes which are available only in TFS 2017 and above. If you are not on TFS 2017 but using TFS 2015 Update 2 and above, please use [v0.0.2](https://github.com/onlyutkarsh/ExportImportBuildDefinition/releases/tag/v0.0.2) and install extension manually.</span>
 > - Additional validations of JSON file before importing.
 > - The extension now checks existence of service endpoints before importing.
 > - UI changes to Import dialog, code cleanup and refactor.
