@@ -1,6 +1,6 @@
 # Export/Import Build Definition
 
-Download this extension from the [VS Marketplace](bit.ly/exportimportbuild) or get the specific version from [Releases](https://github.com/onlyutkarsh/ExportImportBuildDefinition/releases).
+Download this extension from the [VS Marketplace](http://bit.ly/exportimportbuild) or get the specific version from [Releases](https://github.com/onlyutkarsh/ExportImportBuildDefinition/releases).
 
 ---------------------------------------
 
