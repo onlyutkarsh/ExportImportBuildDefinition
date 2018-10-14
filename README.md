@@ -4,13 +4,14 @@ Download this extension from the [VS Marketplace](http://bit.ly/exportimportbuil
 
 ---------------------------------------
 
+> **Thanks to all of you using this extension. Unfortunately, I am not able to work on this extension lately. I am aware of these problems, but it is becoming hard for me to keep the extension up to date with the API changes and ECMA compatibility for all supported browsers due to time constraints.**
+
 Export and Import your build definitions. Useful for recreating all the build steps, variables, schedules, etc in a different team project.
 
 See the [change log](.github/CHANGELOG.md) for changes and road map.
 
-## Features
-
-- Version control your definitions (exported file is a JSON file, which can be checked-in in to your source control as any other file).
+## Features 
+- Version control your definitions (exported file is a JSON file, which can be checked-in in to your source control as any other file). 
 - Avoid manually duplicating the definition in another team project/account.
 - No need to manually add steps and set their values.
 - The extension also validates and highlights any missing service endpoints.
