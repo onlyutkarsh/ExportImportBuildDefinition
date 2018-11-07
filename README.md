@@ -4,7 +4,7 @@ Download this extension from the [VS Marketplace](http://bit.ly/exportimportbuil
 
 ---------------------------------------
 
-> **Thanks to all of you using this extension. Unfortunately, I am not able to work on this extension lately. I am aware of these problems, but it is becoming hard for me to keep the extension up to date with the API changes and ECMA compatibility for all supported browsers due to time constraints.**
+> **Thanks to all of you for using this extension. Unfortunately, I am not able to work on this extension lately. I am aware of these problems, but it is becoming hard for me to keep the extension up to date with the API changes and ECMA compatibility for all supported browsers due to time constraints.**
 
 Export and Import your build definitions. Useful for recreating all the build steps, variables, schedules, etc in a different team project.
 
